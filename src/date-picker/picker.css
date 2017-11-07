@@ -7,18 +7,18 @@
     display: inline-block;
 
     &.el-input {
-      width: 200px;
+      width: 100%;
     }
 
     @m daterange {
       &.el-input {
-        width: 200px;
+        width: 100%;
       }
     }
 
     @m datetimerange {
       &.el-input {
-        width: 200px;
+        width: 100%;
       }
     }
 
