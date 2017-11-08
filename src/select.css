@@ -12,6 +12,7 @@
   @b select {
     display: inline-block;
     position: relative;
+    width: 100%;
 
     &:hover {
       .el-input__inner {
@@ -121,7 +122,9 @@
       height: var(--select-tag-height);
       line-height: var(--select-tag-height);
       box-sizing: border-box;
-      margin: 3px 0 3px 6px;
+      margin: 0 0 0 6px;
+      position: relative;
+      top: 1px;
     }
 
     @e tag {
